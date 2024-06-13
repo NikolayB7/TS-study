@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2022", // стандарт в котором работаем
+        "removeComments": true, //удалять комментарии
+        "outDir": "js", //имя папки для создания js файла
+        "sourceMap": true, //созд карты
+        "noEmitOnError": true, //не собирать файл при ошибках
+        "alwaysStrict": true, //исп строгий режим
+        "allowUnreachableCode": true, //предупреждать когда есть неиспользуемый код
+        // "module": "commonjs",
+        // "noImplicitAny": true,
+        // "preserveConstEnums": true,
+    },
+}
